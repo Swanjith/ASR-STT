@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Vosk models and large assets (do not commit)
+model/
+vosk-model-*.zip
+
+# Audio data (if sample files are not meant to be tracked)
+data/*.wav
+data/*.mp3
+
+# Generated outputs
+outputs/
+*.log
+
+# Environment / secrets
+.env
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.swp
+
+
+# Transcription outputs
+*.srt
+*.tsv
+*.vtt
+*.txt
+
