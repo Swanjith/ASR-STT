@@ -10,7 +10,7 @@ This project performs speech-to-text transcription on call recordings using two 
 ## Requirements
 
 - Python 3.9+  
-- pip  
+- pip
 - Linux (tested on Ubuntu-based systems)  
 
 ---
@@ -23,10 +23,11 @@ This project performs speech-to-text transcription on call recordings using two 
 python3 -m venv venv
 source venv/bin/activate
 
-pip install -r requirements.txt
+pip install  requirements.txt
 
 pip install vosk pyaudio pydub openai-whisper whisperx ffmpeg-python
 
 sudo apt install ffmpeg
 
 whisperx data/call.wav --diarize --model medium.en --hf_token $HF_TOKEN
+
